@@ -36,7 +36,7 @@ TFrame.hpp框架中各类的定义
       width：Frame_Buffer的宽度，应与窗口宽度相同。 
       height：Frame_Buffer的高度，应与窗口高度相同。   
       channels：Frame_Buffer的通道数， 应与窗口通道数相同，因为窗口绘制时只支持RGB模式，应此此项应设为3。  
-      gray：Frame_Buffer?????????
+      gray：Frame背景灰度值。
 
       * const unsigned char* getColBuf()   
       获取指向Frame_Buffer中保存实际像素颜色值的内存空间。
